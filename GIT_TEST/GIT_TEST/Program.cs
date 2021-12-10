@@ -30,6 +30,12 @@ namespace GIT_TEST
                         InputB(Console.ReadLine());
                         break;
 
+
+
+                    case '4':
+                        Min(A, B);
+                        break;
+
                    
 
                   
@@ -61,9 +67,15 @@ namespace GIT_TEST
             }
            
 
+
             static void Del(double a, double b)
             {
                 Console.WriteLine(a / b);
+            }
+            static void Min(double a, double b)
+            {
+                Console.WriteLine(a - b);
+
             }
 
 
