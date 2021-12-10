@@ -29,7 +29,14 @@ namespace GIT_TEST
                     case '2':
                         InputB(Console.ReadLine());
                         break;
+
                    
+
+                  
+                    case '6':
+                        Del(A, B);
+                        break;
+
                     default:
                         Console.WriteLine("Произошла ошибка, введите заного");
                         break;
@@ -53,6 +60,12 @@ namespace GIT_TEST
 
             }
            
+
+            static void Del(double a, double b)
+            {
+                Console.WriteLine(a / b);
+            }
+
 
         }
     }
