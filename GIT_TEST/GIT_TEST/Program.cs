@@ -30,6 +30,9 @@ namespace GIT_TEST
                         InputB(Console.ReadLine());
                         break;
 
+                    case '3':
+                        Plus(A, B);
+                        break;
 
 
 
@@ -73,8 +76,11 @@ namespace GIT_TEST
 
 
             }
-           
 
+            static void Plus(double a, double b)
+            {
+                Console.WriteLine(a + b);
+            }
 
 
             static void Del(double a, double b)
