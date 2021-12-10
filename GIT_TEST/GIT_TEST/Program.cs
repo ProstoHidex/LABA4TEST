@@ -35,7 +35,7 @@ namespace GIT_TEST
 
 
                     case '4':
-                        Min(A, B);
+                        Minus(A, B);
                         break;
                    
                     default:
@@ -62,7 +62,7 @@ namespace GIT_TEST
 
             }
 
-            static void Min(double a, double b)
+            static void Minus(double a, double b)
             {
                 Console.WriteLine(a - b);
             }
