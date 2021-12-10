@@ -32,6 +32,7 @@ namespace GIT_TEST
 
 
 
+
                     case '4':
                         Min(A, B);
                         break;
@@ -42,6 +43,13 @@ namespace GIT_TEST
                     case '6':
                         Del(A, B);
                         break;
+
+
+                    
+                    case '5':
+                        Mult(A, B);
+                        break;
+                    
 
                     default:
                         Console.WriteLine("Произошла ошибка, введите заного");
@@ -68,6 +76,7 @@ namespace GIT_TEST
            
 
 
+
             static void Del(double a, double b)
             {
                 Console.WriteLine(a / b);
@@ -76,6 +85,12 @@ namespace GIT_TEST
             {
                 Console.WriteLine(a - b);
 
+            }
+
+
+            static void Mult(double a, double b)
+            {
+                Console.WriteLine(a * b);
             }
 
 
