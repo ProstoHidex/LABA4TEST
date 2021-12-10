@@ -29,15 +29,7 @@ namespace GIT_TEST
                     case '2':
                         InputB(Console.ReadLine());
                         break;
-                    case '3':
-                        Plus(A, B);
-                        break;
-                    case '4':
-                        Minus(A, B);
-                        break;
-                    case '5':
-                        Mult(A, B);
-                        break;
+                  
                     case '6':
                         Del(A, B);
                         break;
@@ -63,18 +55,7 @@ namespace GIT_TEST
 
 
             }
-            static void Plus(double a, double b)
-            {
-                Console.WriteLine(a + b);
-            }
-            static void Minus(double a, double b)
-            {
-                Console.WriteLine(a - b);
-            }
-            static void Mult(double a, double b)
-            {
-                Console.WriteLine(a * b);
-            }
+           
             static void Del(double a, double b)
             {
                 Console.WriteLine(a / b);
